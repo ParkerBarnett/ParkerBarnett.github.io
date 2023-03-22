@@ -1,4 +1,29 @@
-nav {
-    text-decoration: none;
-    text-align: center;
+header {
+    background-image: url(./portfolioimage1.avif);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
 }
+
+section {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: right;
+}
+
+#about {
+    color: black;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
