@@ -23,7 +23,10 @@ header a {
     padding: 50px;
 }
 
-ul {
-    list-style-type: none;
+/* created this to flex container in the nav to move them to the right. You can change the flex direction to row if you no longer want them on top of one another*/
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 

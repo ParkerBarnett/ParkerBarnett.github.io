@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio Site Project">
-     <meta name="author" content="Parker Barnett">
-     <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Parker Barnett">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://github.com/">
     <title>Parker's Portfolio Site</title>
 </head>
+
 <body>
     <header>
-        <div class="container">
-            
-            <ul>
-                <li id="current">
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-
+        <!-- wrapped the links in a nav tag -->
+        <nav>
+            <div class="container">
+                <ul>
+                    <li id="current">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <section id="showcase">
             <div class="container">
                 <h1>Parker Barnett</h1>
@@ -37,15 +41,46 @@
         </section>
     </header>
 
+
+
+    <section id="about">
+        <div class="container">
+            <article class="main-col">
+                <h1 class="page-title">About Me</h1>
+                <p>Hello, my name is Parker. Currently enrolled in Commonwealth Coders, gaining experience in multiple
+                    programming languages such as HTML, CSS, Javascript, and Python. With this knowledge I'm pursing a
+                    job in the IT industry. I love everything about computers, which is why I have chosen the path I'm
+                    currently in. </p>
+            </article>
+        </div>
     
+        <aside class="sidebar">
+            <div class="dark">
+                <h3>Contact Me</h3>
+                <form class="Contact Me">
+                    <div>
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="btn-1">Send</button>
+                </form>
+            </div>
+        </aside>
+
+    </section>
+
+<!-- moved body tag to here -->
 </body>
 
-<section id="about">
-    <div class="container">
-        <article class="main-col">
-            <h1 class="page-title">About Me</h1>
-            <p>Hello, my name is Parker. Currently enrolled in Commonwealth Coders, gaining experience in multiple programming languages such as HTML, CSS, Javascript, and Python. With this knowledge I'm pursing a job in the IT industry. I love everything about computers, which is why I have chosen the path I'm currently in.  </p>
-        </article>
-    </div>
-</section>
 </html>
