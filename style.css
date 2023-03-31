@@ -1,12 +1,13 @@
 header {
     background-image: url(./portfolioimage1.avif);
-    height: 95vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
+    margin: auto;
 }
 
 section {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 30px;
 }
@@ -28,5 +29,16 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    position: relative;
+    padding: 0;
+    text-align: justify;
 }
 
+aside {
+    align-items: center;
+    
+}
+
+body {
+    background-color: tan;
+}
